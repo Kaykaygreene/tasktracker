@@ -10,7 +10,7 @@ This is a simple Task Tracker web app built using **HTML**, **CSS**, and **JavaS
 - Dynamic DOM updates using JavaScript  
 
 ## 💻 Live Demo
-👉 [Project URL](https://github.com/Kaykaygreene/tasktracker.git)
+👉 [Project URL][(https://github.com/Kaykaygreene/tasktracker.git)](https://kaykaygreene.github.io/tasktracker/)
 
 ## 📂 How to Run
 1. Download or clone this repository  
