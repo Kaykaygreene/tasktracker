@@ -1,0 +1,105 @@
+/* Centers everything on the screen */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #74ABE2, #5563DE);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Outer wrapper to hold the box */
+.main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Inner box container */
+.container {
+  background: #fff;
+  width: 400px;
+  padding: 25px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input and button styling */
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px 14px;
+  background: #4CAF50;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+/* Task list styling */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: gray;
+  opacity: 0.7;
+}
+
+.actions button {
+  margin-left: 5px;
+  background: #007BFF;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.actions button.delete {
+  background: #e74c3c;
+}
+
+.actions button:hover {
+  opacity: 0.85;
+}
